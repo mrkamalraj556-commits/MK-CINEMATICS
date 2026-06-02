@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Montserrat", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Luxury Gold #D4AF37 Palette scale mapped into cyan to preserve color mapping */
+  --color-cyan-50: #fefdf5;
+  --color-cyan-100: #fbf6db;
+  --color-cyan-200: #f6ebb6;
+  --color-cyan-300: #efdc87;
+  --color-cyan-400: #e5c758;
+  --color-cyan-500: #D4AF37; /* Luxury Gold */
+  --color-cyan-600: #b89228;
+  --color-cyan-700: #94711d;
+  --color-cyan-800: #715416;
+  --color-cyan-900: #4d380f;
+  --color-cyan-950: #291e05;
+
+  /* Deep Bronze and Gold accent backups */
+  --color-blue-50: #fffef5;
+  --color-blue-100: #fdfae6;
+  --color-blue-200: #fbf3be;
+  --color-blue-300: #f7e687;
+  --color-blue-400: #f1d34f;
+  --color-blue-500: #D4AF37; /* Luxury Gold overlay */
+  --color-blue-600: #b89228;
+  --color-blue-700: #94711d;
+  --color-blue-800: #715416;
+  --color-blue-900: #4d380f;
+  --color-blue-950: #291e05;
+
+  --color-gold-400: #e5c758;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #b89228;
+}
+
+@layer base {
+  body {
+    background-color: #0b0b0b; /* Pure Deep Black as requested */
+    color: #b3b3b3; /* Secondary Text - High Comfort light gray as requested */
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 800; /* Montserrat ExtraBold Style */
+    color: #ffffff; /* Crisp High contrast clean white as requested */
+  }
+}
+
+/* Glassmorphism utility using requested #151515 dark gray card background */
+.glass-panel {
+  background: rgba(21, 21, 21, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-heavy {
+  background: rgba(21, 21, 21, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Custom premium Gold glows on buttons and active states */
+.glow-amber {
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.2);
+}
+
+.glow-orange {
+  box-shadow: 0 0 35px rgba(184, 146, 40, 0.25);
+}
+
+/* Custom Scrollbar CSS for Cinematic Premium Style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+::-webkit-scrollbar-thumb {
+  background: #151515;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}

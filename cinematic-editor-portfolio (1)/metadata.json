@@ -1,0 +1,6 @@
+{
+  "name": "MKCINEMATIC",
+  "description": "A modern, premium, and fully responsive cinematic video editing portfolio featuring custom video categories, an admin upload system, and professional client Inquiry management on a dark glassmorphic theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

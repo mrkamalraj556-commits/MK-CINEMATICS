@@ -1,0 +1,173 @@
+{
+  "videos": [
+    {
+      "id": "v1",
+      "title": "Urban Street Neon - Kinetic Reel",
+      "description": "Highlight reel showcasing seamless kinetic transitions, audio beat sync, speed ramps, and stylized cyberpunk color grading styled for an urban streetwear brand.",
+      "category": "reels",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-dancing-woman-in-the-city-at-night-42283-large.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
+      "likes": 247,
+      "views": 1840,
+      "duration": "0:30",
+      "createdAt": "2026-05-25T05:43:21.633Z"
+    },
+    {
+      "id": "v2",
+      "title": "The Art of Coffee Crafting",
+      "description": "Mini-documentary focusing on Foley sound design (ASMR), close-up macro cinematography, and warm, moody lofi color spaces for an artisanal roastery.",
+      "category": "youtube",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-coffee-maker-machine-dripping-fresh-beverage-42224-large.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop",
+      "likes": 417,
+      "views": 3200,
+      "duration": "2:45",
+      "createdAt": "2026-05-18T05:43:21.634Z"
+    },
+    {
+      "id": "v3",
+      "title": "Cyberpunk Action Sequence Montage",
+      "description": "High-tempo gaming montage highlighting perfect beat synchronization, vibrant screen shakes, and custom speed curves paired with twitch tracking zooms.",
+      "category": "gaming",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-hands-on-a-glowing-neon-gaming-keyboard-51167-large.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+      "likes": 189,
+      "views": 1110,
+      "duration": "1:15",
+      "createdAt": "2026-05-27T05:43:21.634Z"
+    },
+    {
+      "id": "v4",
+      "title": "Alpine Adrenaline - Travel Promo",
+      "description": "Brand campaign featuring epic heavy slow-motion landscape clips, sound stage echoes, and dynamic speed gradients capturing extreme winter sports.",
+      "category": "cinematic",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-snowy-mountain-slopes-under-a-clear-blue-sky-41481-large.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
+      "likes": 532,
+      "views": 4560,
+      "duration": "1:45",
+      "createdAt": "2026-05-10T05:43:21.634Z"
+    },
+    {
+      "id": "v5",
+      "title": "Moody Cinematic Forest Breakdown",
+      "description": "Color grading masterclass showing raw Log sensor footage converting into lush cinematic forest tones, split-toned shadow curves, and selective masks.",
+      "category": "color-grading",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-sunlight-filtering-through-active-pine-trees-42514-large.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=800&auto=format&fit=crop",
+      "likes": 318,
+      "views": 2010,
+      "duration": "1:02",
+      "createdAt": "2026-05-22T05:43:21.634Z"
+    },
+    {
+      "id": "v6",
+      "title": "Custom High-CTR Comic Thumbnails",
+      "description": "An animated showcase of strategic YouTube thumbnails. Incorporating 3D visual cuts, glowing edges, high-contrast readable typefaces, and eye-tracking layouts.",
+      "category": "thumbnail",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-top-shot-of-a-person-sketching-comics-41589-large.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=800&auto=format&fit=crop",
+      "likes": 167,
+      "views": 1245,
+      "duration": "0:45",
+      "createdAt": "2026-05-15T05:43:21.634Z"
+    },
+    {
+      "id": "v7",
+      "title": "Premium Cinematic Portrait Edit (& MK Custom Backdrop)",
+      "description": "Sleek professional color correction, raw skin tone optimization, selective masking, and custom red-gradient backdrop composition. Handled with pristine detail without distracting watermarks or overlay symbols.",
+      "category": "photo-editing",
+      "videoUrl": "",
+      "thumbnailUrl": "/src/assets/images/full_sitting_mk_1780128294916.png",
+      "likes": 425,
+      "views": 2580,
+      "duration": "Edited Image",
+      "createdAt": "2026-05-29T12:00:00.000Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "author": "Alex Thorne",
+      "role": "Head of Content",
+      "company": "TechSpire YouTube Channel",
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "text": "Phenomenal sense of timing! Our viewer retention rate instantly jumped by 32% on the first batch of YouTube video cuts. Exceptional sound design and color grading too."
+    },
+    {
+      "id": "t2",
+      "author": "Sophie Hayes",
+      "role": "Creative Director",
+      "company": "Lumina Studio Agency",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "text": "His cinematic editing transformed simple raw interview footage into a beautiful boutique-grade brand film. He is incredibly receptive to feedback and delivers fast."
+    },
+    {
+      "id": "t3",
+      "author": "Marcus Durant",
+      "role": "Professional Creator",
+      "company": "eSports Syndicate",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "text": "The speed-ramped sync is literal perfection. Re-cut our streams into reels that secured over 500k views on TikTok inside 48 hours. Absolute magician with esports clips."
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "i1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "service": "reels",
+      "message": "Hi, I have a batch of raw shorts from a recent podcast show and need them cut down with energetic typography. Please get in touch!",
+      "status": "new",
+      "createdAt": "2026-05-29T05:43:21.634Z"
+    },
+    {
+      "id": "i_mprxi6xr",
+      "name": "Kamal Prajapat",
+      "email": "montykumawatmk@gmail.com",
+      "service": "reels",
+      "message": "hello sir mara name kamal hai muja mare video edit karwani hai ",
+      "status": "replied",
+      "createdAt": "2026-05-30T05:47:11.391Z"
+    },
+    {
+      "id": "i_mpry6pci",
+      "name": "Kamal Prajapat",
+      "email": "montykumawatmk@gmail.com",
+      "service": "reels",
+      "message": "hello kamal",
+      "status": "new",
+      "createdAt": "2026-05-30T06:06:14.994Z"
+    },
+    {
+      "id": "i_mpryj1em",
+      "name": "Kamal Prajapat",
+      "email": "montykumawatmk@gmail.com",
+      "service": "reels",
+      "message": "hello kamal",
+      "status": "new",
+      "createdAt": "2026-05-30T06:15:50.494Z"
+    },
+    {
+      "id": "i_mpto8e6i",
+      "name": "Kamal Prajapat",
+      "email": "montykumawatmk@gmail.com",
+      "service": "reels",
+      "message": "hello my name is kamal ",
+      "status": "new",
+      "createdAt": "2026-05-31T11:03:10.026Z"
+    }
+  ],
+  "settings": {
+    "whatsappNumber": "918890534383",
+    "email": "montykumawatmk@gmail.com",
+    "smtpHost": "smtp.gmail.com",
+    "smtpPort": "587",
+    "smtpUser": "",
+    "smtpPass": "",
+    "smtpEnabled": false
+  }
+}

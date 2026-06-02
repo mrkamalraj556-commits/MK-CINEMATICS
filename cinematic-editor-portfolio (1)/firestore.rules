@@ -1,0 +1,47 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Default Deny Catch-All Safety Net (Pillar 1)
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Global reusable helpers (Pillars 2, 3, 4)
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isVerifiedEmail(email) {
+      return isSignedIn() && 
+             request.auth.token.email == email;
+    }
+
+    function isAdmin() {
+      return isVerifiedEmail('montykumawatmk@gmail.com');
+    }
+
+    function isValidId(id) {
+       return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    // Portfolio videos collection path rules
+    match /videos/{videoId} {
+      allow read: if true;
+      allow create, delete: if isAdmin() && isValidId(videoId);
+      allow update: if isAdmin() && isValidId(videoId);
+    }
+
+    // Contact form submissions rules
+    match /inquiries/{inquiryId} {
+      allow create: if isValidId(inquiryId);
+      allow read, update, delete: if isAdmin() && isValidId(inquiryId);
+    }
+
+    // Contact & SMTP settings documents rules
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if isAdmin() && isValidId(settingId);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "entities": {
+    "Video": {
+      "title": "Video",
+      "description": "Video project entry in the portfolio",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique video ID" },
+        "title": { "type": "string", "description": "Display title of the video" },
+        "description": { "type": "string", "description": "Detailed description of the project" },
+        "category": { "type": "string", "description": "Category tags, e.g. reels, youtube" },
+        "videoUrl": { "type": "string", "description": "Link to video stream or uploaded file" },
+        "thumbnailUrl": { "type": "string", "description": "Main cover image url" },
+        "likes": { "type": "integer", "description": "Total reader-likes count" },
+        "views": { "type": "integer", "description": "Total portfolio viewers" },
+        "duration": { "type": "string", "description": "Duration in stamp, e.g. 1:15" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Chronological stamp" }
+      },
+      "required": ["id", "title", "category", "videoUrl"]
+    },
+    "Inquiry": {
+      "title": "Inquiry",
+      "description": "Form submissions by potential clients",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique submission ID" },
+        "name": { "type": "string", "description": "User submitter name" },
+        "email": { "type": "string", "format": "email", "description": "User contact details" },
+        "service": { "type": "string", "description": "Service of interest, e.g. reels, gaming" },
+        "message": { "type": "string", "description": "Detailed text content of query" },
+        "status": { "type": "string", "enum": ["new", "replied", "done"], "description": "Lead lifecycle stat" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Chronological stamp" }
+      },
+      "required": ["id", "name", "email", "message"]
+    },
+    "Setting": {
+      "title": "Setting",
+      "description": "Contact info and preferences settings",
+      "type": "object",
+      "properties": {
+        "whatsappNumber": { "type": "string" },
+        "email": { "type": "string" },
+        "smtpHost": { "type": "string" },
+        "smtpPort": { "type": "string" },
+        "smtpUser": { "type": "string" },
+        "smtpPass": { "type": "string" },
+        "smtpEnabled": { "type": "boolean" }
+      },
+      "required": ["whatsappNumber", "email"]
+    }
+  },
+  "firestore": {
+    "/videos/{videoId}": {
+      "schema": "Video",
+      "description": "Portfolio video projects catalogue"
+    },
+    "/inquiries/{inquiryId}": {
+      "schema": "Inquiry",
+      "description": "Inquiries submitted via contact forms"
+    },
+    "/settings/global": {
+      "schema": "Setting",
+      "description": "Portfolio contact details settings"
+    }
+  }
+}
